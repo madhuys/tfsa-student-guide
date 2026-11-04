@@ -1,21 +1,7 @@
-# tfsa-student-guide
+# Room to Grow — a TFSA starter guide
 
-A student-friendly, self-contained TFSA explainer site with a voice-over motion graphic hero.
+A single-file, student-friendly explainer for Canada's Tax-Free Savings Account, with a 24-second voice-over motion graphic in the hero.
 
-A static site: plain HTML, CSS and JavaScript, no build step.
+Open `index.html`, or visit the published page. Everything (CSS, fonts, video, poster) is embedded, so there are no other assets to serve.
 
-## Run
-
-```sh
-python3 -m http.server 8000 --bind 127.0.0.1
-```
-
-Then open http://127.0.0.1:8000/.
-
-## Test
-
-```sh
-python3 -m unittest discover -s tests
-```
-
-The test checks that every page parses and that every local link and asset it names exists.
+Content checked against Canada Revenue Agency guidance on 4 November 2026. Educational only, not financial or tax advice.
