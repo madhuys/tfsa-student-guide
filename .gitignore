@@ -1,0 +1,4 @@
+# the OS's own record of this app (App Studio), not part of the app
+.sios-app.json
+.DS_Store
+__pycache__/
